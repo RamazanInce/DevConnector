@@ -6,7 +6,7 @@ const ProfileSchema = new mongoose.Schema({
     ref: 'user'
   },
   company: {
-    type: String,
+    type: String
   },
   website: {
     type: String
@@ -20,12 +20,12 @@ const ProfileSchema = new mongoose.Schema({
   },
   skills: {
     type: [String],
-    required: true,
+    required: true
   },
   bio: {
     type: String
   },
-  githubUsername: {
+  githubusername: {
     type: String
   },
   experience: [{
@@ -35,7 +35,7 @@ const ProfileSchema = new mongoose.Schema({
     },
     company: {
       type: String,
-      require: true
+      required: true
     },
     location: {
       type: String
@@ -64,7 +64,7 @@ const ProfileSchema = new mongoose.Schema({
       type: String,
       required: true
     },
-    fieldOfStudy: {
+    fieldofstudy: {
       type: String,
       required: true
     },
