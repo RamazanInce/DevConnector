@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://brand123:brand123@devconnector-1vs3y.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "a3b95a69de410bd3d2b5",
+  "githubSecret": "4ab8486cd07c61ff9786d6ba3c0c2e6fa0e34efa"
+}
