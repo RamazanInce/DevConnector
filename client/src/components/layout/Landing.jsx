@@ -12,9 +12,11 @@ const Landing = ({ isAuthenticated }) => {
     <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
-          <h1 className='x-large'>Developer Connector</h1>
+          <h1 className='x-large'>HYF Developer Connector</h1>
           <p className='lead'>
-            Create a developer profile/portfolio, share posts and get help from other developers
+            Create a developer profile/portfolio, share posts and get help from other developers,
+            follow each other. Get information about other developers. A great opportunity for the
+            Junior Developers to meet with the Senior ones.
           </p>
           <div className='buttons'>
             <Link to='/register' className='btn btn-primary'>

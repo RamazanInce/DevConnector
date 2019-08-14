@@ -17,7 +17,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: rgb(172, 160, 172);
   color: #333;
 }
 
@@ -60,6 +60,7 @@ img {
 .lead {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  width: 70%;
 }
 
 .text-center {
@@ -174,7 +175,7 @@ img {
 .bg-primary,
 .badge-primary,
 .alert-primary {
-  background: var(--primary-color);
+  background: orchid;
   color: #fff;
 }
 
@@ -182,7 +183,7 @@ img {
 .bg-light,
 .badge-light,
 .alert-light {
-  background: var(--light-color);
+  background: yellowgreen;
   color: #333;
 }
 
@@ -190,7 +191,7 @@ img {
 .bg-dark,
 .badge-dark,
 .alert-dark {
-  background: var(--dark-color);
+  background: orange;
   color: #fff;
 }
 
@@ -352,6 +353,7 @@ button {
 .landing {
   position: relative;
   background: url('./img/showcase.jpg') no-repeat center center/cover;
+  opacity: 0.9;
   height: 100vh;
 }
 
@@ -365,6 +367,7 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
+  /* border: 4px solid orange; */
 }
 
 /* Profiles Page */
